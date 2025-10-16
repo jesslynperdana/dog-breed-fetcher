@@ -27,7 +27,7 @@ public class Main {
         try {
             return breedFetcher.getSubBreeds(breed).size();
         } catch (BreedFetcher.BreedNotFoundException event) {
-            return -1;
+            return 0;
         }
         // return statement included so that the starter code can compile and run.
     }
